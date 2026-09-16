@@ -14,7 +14,7 @@ from src.infrastructure.models.MLrepository import PredictionProvider
 
 load_dotenv()
 
-SECRET_KEY = os.getenv("SECRET_KEY") or "asdfhsdfjgajvf321574asd9rety"
+SECRET_KEY = os.getenv("SECRET_KEY")
 
 ALGORITHM = "HS256"
 

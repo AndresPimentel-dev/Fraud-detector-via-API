@@ -15,7 +15,7 @@ services:
     container_name: ml_database
     environment:
       POSTGRES_USER: ml_user
-      POSTGRES_PASSWORD: contrasena_segura
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ml_database
     ports:
       - "5433:5434"

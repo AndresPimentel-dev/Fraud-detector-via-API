@@ -6,7 +6,6 @@ from fastapi.testclient import TestClient
 
 from src.infrastructure.database.connection import Base, get_db
 from src.api.main import app
-from src.infrastructure.database import models
 
 SQLALCHEMY_DATABASE_URL = "sqlite:///:memory:"
 

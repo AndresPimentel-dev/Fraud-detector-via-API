@@ -4,7 +4,7 @@ from typing import List
 from fastapi import Depends
 from sqlalchemy.orm import Session
 
-oauth2_scheme = OAuth2PasswordBearer(tokenUrl="login")
+oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/api/v1/auth/login")
 
 from src.api.schemas import UserCreate, Transaccion, TokenResponse
 from src.use_cases.user_cases import UserCases
