@@ -6,7 +6,7 @@
 [![Railway](https://img.shields.io/badge/Railway-000000?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
-An enterprise-grade, high-performance REST API built with **FastAPI** designed for **Real-time Fraud Detection**. This system features fully isolated layers following **Clean Architecture** principles, robust **JWT Authentication**, and is fully containerized.
+An robust grade, high-performance REST API built with **FastAPI** designed for **Real-time Fraud Detection**. This system features fully isolated layers following **Clean Architecture** principles, robust **JWT Authentication**, and is fully containerized.
 
 ---
 
